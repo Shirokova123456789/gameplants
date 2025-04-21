@@ -1,0 +1,88 @@
+.main{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin-right: 5vw;
+    /* background-image: url(file:///C:/Users/arina/OneDrive/Рабочий%20стол/Фоннн.jpg); */
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    height: 17vh;
+    background-color: #7FC1DD;
+
+
+}
+.food{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 25vh;
+    background-color: #d1eaa6;
+}
+.shipht{
+    color: #242c17;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2vh;
+    font-size: 6ch;
+    font-weight: 700;
+    text-decoration: none; 
+}
+.shipht2{
+    color: #242c17;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2vh;
+    font-size: 4ch;
+    font-weight: 700;
+    text-decoration: none; 
+}
+.poloska{
+    width: 100vw;
+    height: 3vh;
+    background-color: #B4D974;
+}
+.but{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3vh;
+    border-radius: 25px ;
+    width: 25vw;
+    height: 11vh;
+    background-color: #d1eaa6;
+    opacity: 1;
+    border: solid 3px #74afc9;  
+    transition: 0.5s;                                   
+}
+.but:hover{
+    background-color: #e0ffaa ;
+    border: solid 3px #bcebff;
+}
+.start{
+    display: flex;
+    justify-content: space-around;
+
+    height: 15vh;
+    width: 40vw ;
+    margin-left: 30vw;
+    margin-top: 3vh;
+    background-color: #7FC1DD;
+    border-radius: 25px;
+    border: solid 3px #B4D974;
+    transition: 0.5s;
+}
+.start:hover{
+    background-color: #a1e3ff;
+    border: solid 3px #cffa85
+
+}
+.phon{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
