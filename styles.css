@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    overflow-x: hidden ;
+}
 .main{
     overflow: hidden;
     display: flex;
