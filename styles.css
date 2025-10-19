@@ -165,3 +165,47 @@ body{
     width: 67vw;
     height: 20vh;
 }
+@media screen and (max-width: 768px){
+    .shipht2{
+        font-size: 2ch;
+    }
+    .shipht{
+        font-size: 3ch;
+    }
+    .shipht3{
+        font-size: 2ch;
+    }
+}
+@media screen and (max-width: 1024px){
+    .shipht2{
+        font-size: 2ch;
+    }
+    .shipht{
+        font-size: 3ch;
+    }
+    .shipht3{
+        font-size: 2ch;
+    }
+}
+@media screen and (min-width: 1025px){
+    .shipht2{
+        font-size: 3ch;
+    }
+    .shipht{
+        font-size: 3ch;
+    }
+    .shipht3{
+        font-size: 3ch;
+    }
+}
+@media screen and (min-width: 1280px){
+    .shipht2{
+        font-size: 4ch;
+    }
+    .shipht{
+        font-size: 4ch;
+    }
+    .shipht3{
+        font-size: 3ch;
+    }
+}
