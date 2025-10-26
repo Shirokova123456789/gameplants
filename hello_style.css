@@ -7,9 +7,9 @@
                         flex-direction: column;
                         width: 100vw;
                         height: 83vh;
-                        background-image: url("phonend.jpg");
-                        background-size: cover; /* добавьте это для правильного масштабирования */
-                        background-position: center 25%; /* центрирование фона */
+                        background-image: url("imgs/phonend.jpg");
+                        background-size: cover; 
+                        background-position: center 25%;
                         background-repeat: no-repeat;
                 }
                 .mainclass2{
@@ -18,9 +18,9 @@
                         flex-direction: column;
                         width: 100vw;
                         height: 83vh;
-                        background-image: url("phonopros2.jpg"); /* если изображение в той же папке */
-                        background-size: cover; /* добавьте это для правильного масштабирования */
-                        background-position: center 25%; /* центрирование фона */
+                        background-image: url("phonopros2.jpg"); 
+                        background-size: cover; 
+                        background-position: center 25%; 
                         background-repeat: no-repeat;
                 }
                 .mainclass22{
@@ -29,9 +29,9 @@
                         flex-direction: column;
                         width: 100vw;
                         height: 83vh;
-                        background-image: url("phoninfa2.jpg"); /* если изображение в той же папке */
-                        background-size: cover; /* добавьте это для правильного масштабирования */
-                        background-position: center 25%; /* центрирование фона */
+                        background-image: url("imgs/phoninfa2.jpg"); 
+                        background-size: cover;
+                        background-position: center 25%; 
                         background-repeat: no-repeat;
                 }
                 .header{
@@ -256,3 +256,4 @@
 
                     
                 }
+
