@@ -1,0 +1,258 @@
+                body{
+                    margin: 0;
+                    overflow-x: hidden ;}
+                .mainclass{
+                        overflow: hidden;
+                        display: flex;
+                        flex-direction: column;
+                        width: 100vw;
+                        height: 83vh;
+                        background-image: url("phonend.jpg");
+                        background-size: cover; /* добавьте это для правильного масштабирования */
+                        background-position: center 25%; /* центрирование фона */
+                        background-repeat: no-repeat;
+                }
+                .mainclass2{
+                        overflow: hidden;
+                        display: flex;
+                        flex-direction: column;
+                        width: 100vw;
+                        height: 83vh;
+                        background-image: url("phonopros2.jpg"); /* если изображение в той же папке */
+                        background-size: cover; /* добавьте это для правильного масштабирования */
+                        background-position: center 25%; /* центрирование фона */
+                        background-repeat: no-repeat;
+                }
+                .mainclass22{
+                        overflow: hidden;
+                        display: flex;
+                        flex-direction: column;
+                        width: 100vw;
+                        height: 83vh;
+                        background-image: url("phoninfa2.jpg"); /* если изображение в той же папке */
+                        background-size: cover; /* добавьте это для правильного масштабирования */
+                        background-position: center 25%; /* центрирование фона */
+                        background-repeat: no-repeat;
+                }
+                .header{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        width: 100vw;
+                        height: 17vh;
+                        background-color: #7FC1DD;
+                }
+                .but{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        margin-top: 3vh;
+                        border-radius: 25px ;
+                        width: 25vw;
+                        height: 11vh;
+                        background-color: #d1eaa6;
+                        opacity: 1;
+                        border: solid 3px #74afc9;  
+                        transition: 0.5s;                                   
+                    }
+                .but:hover{
+                        background-color: #e0ffaa ;
+                        border: solid 3px #bcebff;
+                    }
+                
+                .shipht2{
+                    color: #242c17;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    margin-top: 2vh;
+                    margin-left: 1vw;
+                    font-size: 3ch;
+                    font-weight: 700;
+                    text-decoration: none; 
+                }
+                .shrift_infa{
+                    color: #242c17;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    margin-top: 1vh;
+                    margin-left: 1vw;
+                    font-size: 4ch;
+                    font-weight: 700;
+                    text-decoration: none;                     
+                }
+                .shrift_infa2{
+                    color: #242c17;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    margin-top: 1vh;
+                    margin-left: 1vw;
+                    font-size: 3ch;
+                    font-weight: 700;
+                    text-decoration: none;                     
+                }
+                .shrift_infa_end{
+                    color: #242c17;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    margin-top: 1vh;
+                    margin-left: 1vw;
+                    font-size: 3ch;
+                    font-weight: 700;
+                    text-decoration: none;                     
+                }
+                .peremot{
+                    width: 15vw;
+                    height: 10vh;
+                    background-color: #d1eaa6;
+                    margin-left: 83vw;
+                    margin-top: 23vh;
+                    border-radius: 25px;
+                    text-decoration: none;
+                    border: solid 3px #242c17; 
+
+                }
+                .peremot:hover{
+                    background-color: #e0ffaa;
+                }
+                .peremot2{
+                    width: 15vw;
+                    height: 10vh;
+                    background-color: #d1eaa6;
+                    margin-left: 83vw;
+                    margin-top: 13vh;
+                    border-radius: 25px;
+                    text-decoration: none;
+                    border: solid 3px #242c17; 
+
+                }
+                .peremot2:hover{
+                    background-color: #e0ffaa;
+                }
+                .peremot_end{
+                    width: 15vw;
+                    height: 10vh;
+                    background-color: #d1eaa6;
+                    margin-left: 83vw;
+                    margin-top: 10vh;
+                    border-radius: 25px;
+                }
+                .peremot_end:hover{
+                    background-color: #e0ffaa;
+                }
+                .go1{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    width: 35vw;
+                    height: 35vh;
+                    margin-top: 11vh;
+                    margin-left: 30vw;
+                    border-radius: 25px;
+                    background-color: #d1eaa6;
+                    border: solid 4px #74afc9;
+                }
+                .go2{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    width: 35vw;
+                    height: 48vh;
+                    margin-top: 9vh;
+                    margin-left: 30vw;
+                    border-radius: 25px;
+                    background-color: #d1eaa6;
+                    border: solid 4px #74afc9;
+                }
+                .go3{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    width: 50vw;
+                    height: 30vh;
+                    margin-top: 17vh;
+                    margin-left: 5vw;
+                    border-radius: 25px;
+                    background-color: #d1eaa6;
+                    opacity: 0.9;
+                    border: solid 4px #74afc9;
+                }
+                .go22{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    width: 50vw;
+                    height: 30vh;
+                    margin-top: 17vh;
+                    margin-left: 32vw;
+                    border-radius: 25px;
+                    background-color: #d1eaa6;
+                    opacity: 0.9;
+                    border: solid 4px #74afc9;
+                }
+                .go4{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    width: 35vw;
+                    height: 35vh;
+                    margin-top: 9vh;
+                    margin-left: 30vw;
+                    border-radius: 25px;
+                    background-color: #d1eaa6;
+                    border: solid 4px #74afc9;
+                }
+                .go_end{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    width: 36vw;
+                    height: 46vh;
+                    margin-top: 15vh;
+                    margin-left: 30vw;
+                    border-radius: 25px;
+                    background-color: #d1eaa6;
+                    opacity: 0.9;
+                    border: solid 4px #74afc9;
+                }
+                @media screen and (max-width: 768px){
+                    .shipht2{
+                        font-size: 4ch;
+                    }
+                    .shrift_infa{
+                        font-size: 3ch;
+                    }
+                    .shrift_infa_end{
+                        font-size: 2ch;
+                    }
+                    .go_end{
+                        height: 57vh;
+                        margin-top: 10vh;
+                    }
+
+                }
+                @media screen and (max-width: 1024px){
+                    .shipht2{
+                        font-size: 3ch;
+                    }
+                    .shrift_infa{
+                        font-size: 2ch;
+                    }
+                    .shrift_infa_end{
+                        font-size: 2ch;
+                    }
+                }
+                @media screen and (min-width: 1025px){
+                    .shipht2{
+                        font-size: 4ch;
+                    }
+                    .shrift_infa{
+                        font-size: 4ch;
+                    }
+                   
+                }
+                @media screen and (min-width: 1280px){
+                    .shipht2{
+                        font-size: 4ch;
+                    }
+                    .shrift_infa{
+                        font-size: 4ch;
+                    }
+
+                    
+                }
