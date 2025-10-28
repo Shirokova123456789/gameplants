@@ -18,7 +18,7 @@
                         flex-direction: column;
                         width: 100vw;
                         height: 83vh;
-                        background-image: url("phonopros2.jpg"); 
+                        background-image: url("imgs/phonopros2.jpg"); 
                         background-size: cover; 
                         background-position: center 25%; 
                         background-repeat: no-repeat;
@@ -256,4 +256,5 @@
 
                     
                 }
+
 
