@@ -1,0 +1,41 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="css_info.css">
+        </head>
+        <body>
+            <header class="header">
+                                <nav class="but">
+                    <a href="/gameplants/index.html" class="shipht2">Начало</a>
+                </nav>
+                <nav class="but">
+                    <a href="/gameplants/listplants.html" class="shipht2">Список растений</a>
+                </nav>
+                <nav class="but">
+                    <a href="/gameplants/map.html" class="shipht2">Меню</a>
+                </nav>
+            </header>
+            
+            <main class="mainclass">
+                <nav class="frame">
+                    <nav class="frame_into">
+                        <nav class="text_into">
+                            <nav class="shrift_infa"> А эти высокие фиолетовые цветы похожи на рыцарские шлемы! Это борец высокий - очень красивый, но и очень хитрый! Даже маленький кусочек может сделать очень плохо. Не будем даже нюхать его!</nav>
+                           
+                        </nav>
+                        <nav class="pict_box">
+                            <img class=" pict_info" src="/gameplants/imgs/deifinium.jpg">
+                            <img class="pict_info" src="/gameplants/imgs/delfinium2.jpg">
+                        </nav>
+
+                    </nav>
+                </nav>
+                <a href="voronec.html" class="peremot">
+                    <nav class='shipht2'>Понятно!</nav>
+                </a>
+            </main>
+
+        </body>
+
+    </html>
