@@ -62,8 +62,10 @@ body{
     width: 100vw;
     height: 17vh;
     background-color: #7FC1DD;
-
-
+.propusk{
+    width: 100vw;
+    height: 5vh;
+}
 }
 .food{
     display: flex;
