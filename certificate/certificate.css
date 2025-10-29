@@ -95,10 +95,10 @@ button:hover {
 
 .name-overlay {
     position: absolute;
-    top: 45%; /* Настройте под ваш шаблон */
+    top: 45%; 
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 32px; /* Настройте размер шрифта */
+    font-size: 32px; 
     font-weight: bold;
     color: #000000;
     font-family: 'Times New Roman', serif;
@@ -133,4 +133,5 @@ text-decoration: none;}
                     .shipht2{
                         font-size: 4ch;
                     }   
+
                 }
