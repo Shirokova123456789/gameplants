@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сертификат</title>
+    <link rel="stylesheet" href="C:\Users\arina\OneDrive\Рабочий стол\ИП\сертификат\сертификат_css.css">
+</head>
+<body>
+    <div class="header">
+                                        <nav class="but">
+                    <a href="C:\Users\arina\OneDrive\Рабочий стол\ИП\Cтолбы.html" class="shipht2">Начало</a>
+                </nav>
+                <nav class="but">
+                    <a href="список.html" class="shipht2">Список растений</a>
+                </nav>
+                <nav class="but">
+                    <a href="C:\Users\arina\OneDrive\Рабочий стол\ИП\меню.html" class="shipht2">Меню</a>
+                </nav>
+    </div>
+    <div class="container">
+        <div class="input-section">
+            <h2>Введите данные для сертификата</h2>
+            <div class="form-group">
+                <label for="firstName">Имя:</label>
+                <input type="text" id="firstName" placeholder="Введите имя">
+            </div>
+            <div class="form-group">
+                <label for="lastName">Фамилия:</label>
+                <input type="text" id="lastName" placeholder="Введите фамилию">
+            </div>
+            <button id="generateBtn">Создать сертификат</button>
+        </div>
+
+        <div class="certificate-section">
+            <div class="certificate-container">
+                <img src="C:\Users\arina\OneDrive\Рабочий стол\ИП\сертификат\certificate.png" alt="Шаблон сертификата" id="certificateTemplate">
+                <div id="nameOutput" class="name-overlay"></div>
+            </div>
+            <button id="downloadBtn" style="display:none;">Скачать сертификат</button>
+        </div>
+    </div>
+    
+    <script  src="C:\Users\arina\OneDrive\Рабочий стол\ИП\сертификат\сертификат_js.js"></script>
+</body>
+</html>
