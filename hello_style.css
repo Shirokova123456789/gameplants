@@ -212,7 +212,7 @@
                 }
                 @media screen and (max-width: 768px){
                     .shipht2{
-                        font-size: 4ch;
+                        font-size: 2ch;
                     }
                     .shrift_infa{
                         font-size: 3ch;
@@ -228,7 +228,7 @@
                 }
                 @media screen and (max-width: 1024px){
                     .shipht2{
-                        font-size: 3ch;
+                        font-size: 2ch;
                     }
                     .shrift_infa{
                         font-size: 2ch;
@@ -239,7 +239,7 @@
                 }
                 @media screen and (min-width: 1025px){
                     .shipht2{
-                        font-size: 4ch;
+                        font-size: 3ch;
                     }
                     .shrift_infa{
                         font-size: 4ch;
@@ -256,5 +256,6 @@
 
                     
                 }
+
 
 
